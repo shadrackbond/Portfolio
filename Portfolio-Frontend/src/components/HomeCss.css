@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+.Container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.IntroContainer{
+  background: white;
+  margin-top: 72px;
+  width: 100%;
+  height: 629px;
+  position: relative;
+}
+.PrimaryText {
+  position: absolute; 
+  top: 144px; 
+  left: 128px; 
+  width: 459px; 
+  font-family: Space Mono; /* Heading */
+  font-size: 72px; 
+  line-height: 72px; 
+  font-weight: 700; 
+  color: rgba(23,26,31,1); /* neutral-900 */
+}
+.SecondaryText {
+  position: absolute; 
+  top: 363px; 
+  left: 128px; 
+  width: 510px; 
+  font-family: Space Mono; /* Heading */
+  font-size: 24px; 
+  line-height: 32px; 
+  font-weight: 400; 
+  color: rgba(86,93,109,1); /* neutral-600 */
+}
+/* View Project Button */
+.ViewProject {
+  position: absolute; 
+  top: 459px; 
+  left: 128px; 
+  width: 164.40625px; 
+  height: 48px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Inter; 
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 500; 
+  color: rgba(255,255,255,1); /* white */
+  background: rgba(61,138,245,1); /* primary-500 */
+  opacity: 1; 
+  border-radius: 6px; 
+  border-width: 0px; 
+  border-color: rgba(0,0,0,1); /* black */
+  border-style: solid; 
+}
+/* Hover */
+.ViewProject:hover {
+  color: rgba(255,255,255,1); /* white */
+  background: rgba(61,138,245,1); /* primary-500 */
+}
+/* Pressed */
+.ViewProject:hover:active {
+  color: rgba(255,255,255,1); /* white */
+  background: rgba(61,138,245,1); /* primary-500 */
+}
+/* Disabled */
+.ViewProject:disabled {
+  opacity: 0.4; 
+}
+
+/* Learn More Button */
+.LearnMore {
+  position: absolute; 
+  top: 459px; 
+  left: 308px; 
+  width: 151.46875px; 
+  height: 50px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Inter; 
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 500; 
+  color: rgba(23,26,31,1); /* neutral-900 */
+  background: rgba(255,255,255,1); /* white */
+  opacity: 1; 
+  border-radius: 6px; 
+  border-width: 1px; 
+  border-color: rgba(222,225,230,1); /* neutral-300 */
+  border-style: solid; 
+}
+/* Hover */
+.LearnMore:hover {
+  color: rgba(23,26,31,1); /* neutral-900 */
+  background: rgba(255,255,255,1); /* white */
+}
+/* Pressed */
+.LearnMore:hover:active {
+  color: rgba(23,26,31,1); /* neutral-900 */
+  background: rgba(255,255,255,1); /* white */
+}
+/* Disabled */
+.LearnMore:disabled {
+  opacity: 0.4; 
+}
+
+/* Image */
+.image {
+  position: absolute; 
+  top: 114px; 
+  left: 816px; 
+  width: 592px; 
+  height: 394.65625px; 
+  border-radius: 0px 0px 0px 0px; 
+}
+
+/* Featured Project */
+.FeaturedProject {
+  position: absolute; 
+  top: 701px; 
+  left: 0px; 
+  width: 100%; 
+  height: 755px; 
+  background: blue; /* white */
+  border-radius: 0px 0px 0px 0px; 
+}
+
+.headingFP {
+  position: absolute; 
+  top: 112px; 
+  left: 551px; 
+  font-family: Space Mono; /* Heading */
+  font-size: 36px; 
+  line-height: 40px; 
+  font-weight: 700; 
+  color: rgba(23,26,31,1); /* neutral-900 */
+}
+
+.SecondFDContainer {
+  position: absolute; 
+  top: 200px; 
+  left: 144px; 
+  width: 1152px; 
+  height: 443px; 
+  background: rgba(255,255,255,1); /* white */
+  border-radius: 6px; 
+  border-width: 1px; 
+  border-color: rgba(222,225,230,1); /* neutral-300 */
+  border-style: solid; 
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 2px 4px rgba(23, 26, 31, 0.09); /* shadow-custom */
+}
+
+.FPImage {
+  position: absolute; 
+  width: 543px; 
+  height: 443px; 
+  border-radius: 0px 0px 0px 0px; 
+}
+
+.FPPrimaryText {
+  position: absolute; 
+  top: 16px; 
+  left: 576px; 
+  width: 387px; 
+  font-family: Space Mono; /* Heading */
+  font-size: 30px; 
+  line-height: 36px; 
+  font-weight: 600; 
+  color: rgba(23,26,31,1); /* neutral-900 */
+}
+
+.FPSecondaryText {
+  position: absolute; 
+  top: 140px; 
+  left: 580px; 
+  width: 516px; 
+  font-family: Inter; /* Body */
+  font-size: 18px; 
+  line-height: 29px; 
+  font-weight: 400; 
+  color: rgba(86,93,109,1); /* neutral-600 */
+}
+
+/* Explore Project Button */
+.Explore {
+  position: absolute; 
+  top: 370px; 
+  left: 576px; 
+  width: 135px; 
+  height: 40px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Inter; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 500; 
+  color: rgba(255,255,255,1); /* white */
+  background: rgba(61,138,245,1); /* primary-500 */
+  opacity: 1; 
+  border-radius: 6px; 
+  border-width: 0px; 
+  border-color: rgba(0,0,0,1); /* black */
+  border-style: solid; 
+}
+/* Hover */
+.Explore:hover {
+  color: rgba(255,255,255,1); /* white */
+  background: rgba(61,138,245,1); /* primary-500 */
+}
+/* Pressed */
+.Explore:hover:active {
+  color: rgba(255,255,255,1); /* white */
+  background: rgba(61,138,245,1); /* primary-500 */
+}
+/* Disabled */
+.Explore:disabled {
+  opacity: 0.4; 
+}
