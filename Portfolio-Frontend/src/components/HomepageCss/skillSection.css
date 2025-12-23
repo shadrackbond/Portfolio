@@ -1,0 +1,99 @@
+/* Section Wrapper */
+.SkillsSection {
+  width: 100%;
+  position: relative;
+  top: 745px;
+  left: 0px;
+  width: 100%;
+  height: 688px;
+  background:rgba(255,255,255,1);
+  border-radius: 0px 0px 0px 0px;
+
+}
+
+/* Container */
+.SkillsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Title */
+.SkillsTitle {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 80px;
+  color: #0f172a;
+}
+
+/* Grid Layout */
+.SkillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px 48px;
+  margin-bottom: 64px;
+}
+
+/* Each Skill Block */
+.SkillsBlock {
+  text-align: center;
+}
+
+/* Block Titles */
+.SkillsBlockTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+/* Tags Wrapper */
+.SkillsTags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Individual Tags */
+.SkillsTags span {
+  padding: 8px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  background-color: #ffffff;
+  white-space: nowrap;
+}
+
+/* Button */
+.SkillsButton {
+  padding: 14px 24px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #0f172a;
+  transition: all 0.2s ease-in-out;
+}
+
+.SkillsButton:hover {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .SkillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .SkillsGrid {
+    grid-template-columns: 1fr;
+  }
+}
