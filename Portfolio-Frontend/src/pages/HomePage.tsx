@@ -2,6 +2,8 @@ import Navbar from "../components/Navbar/NavBar"
 import '../components/HomepageCss/HomeCss.css'
 import '../components/HomepageCss/skillSection.css'
 import '../components/HomepageCss/FeaturedProject.css'
+import '../components/HomepageCss/CtaSection.css'
+import Footer from '../components/Footer/footer'
 
 const HomePage = () => {
     return (
@@ -121,8 +123,20 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <div id="ContactCTA"></div>
-            <div id="footer"></div>
+            <section className="CtaSection">
+                <div className="CtaContainer">
+                    <h2 className="CtaTitle">Ready to Build the Future?</h2>
+
+                    <p className="CtaSubtitle">
+                        Let's connect and discuss how my expertise in scalable, resilient, and
+                        secure backend systems can elevate your next project.
+                    </p>
+
+                    <button className="CtaButton">Get in Touch</button>
+                </div>
+            </section>
+
+            <div>< Footer /></div>
         </div>
     )
 }
