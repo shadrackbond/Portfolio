@@ -13,8 +13,11 @@ const HomePage = () => {
                 <div>
                     <p className="PrimaryText">SHADRACK MAKAU</p>
                     <p className="SecondaryText">Architecting Distributed Futures: Scalable, Resilient, Secure</p>
-                    <button className="ViewProject">View Projects</button>
-                    <button className="LearnMore">LearnMore</button>
+                    <div className="HeroButtons">
+                        <button className="ViewProject">View Projects</button>
+                        <button className="LearnMore">LearnMore</button>
+                    </div>
+
                 </div>
                 <div>
                     <img className="image" src="https://i.pinimg.com/1200x/00/08/06/0008069a050ade9ecf214d6ddd18021d.jpg"></img>
@@ -131,8 +134,10 @@ const HomePage = () => {
                         Let's connect and discuss how my expertise in scalable, resilient, and
                         secure backend systems can elevate your next project.
                     </p>
+                    <div className="CtaButtonWrapper">
+                        <button className="CtaButton">Get in Touch</button>
+                    </div>
 
-                    <button className="CtaButton">Get in Touch</button>
                 </div>
             </section>
 
